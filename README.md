@@ -1,1 +1,1 @@
-# docker-ubuntu-ruby-azure
+# docker-ruby-azure
