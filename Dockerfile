@@ -54,3 +54,4 @@ ENV LC_ALL en_US.UTF-8
 
 COPY build.sh /project/installations/
 ENTRYPOINT ./build.sh
+
