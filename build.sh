@@ -1,6 +1,5 @@
 #!/bin/sh
 cd /project/builds
-ls
 echo "Container is ->"$AZURE_STORAGE_CONTAINER
 echo "Account is ->"$AZURE_STORAGE_ACCOUNT
 echo "Key is ->"$AZURE_STORAGE_KEY
