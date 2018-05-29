@@ -30,7 +30,7 @@ RUN gem clean
 
 # Install yq & Python
 RUN apt-get install -y python python-pip groff
-RUN pip install --upgrade pip
+# RUN pip install --upgrade pip
 RUN pip install yq
 
 # Install Azure
