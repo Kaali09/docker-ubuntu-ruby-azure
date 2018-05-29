@@ -9,4 +9,5 @@ gem 's3_website'
 gem 'html-proofer'
 gem 'faraday'
 gem 'jekyll-redirect-from'
+gem 'i18n','1.0.1'
  
