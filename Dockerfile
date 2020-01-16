@@ -24,13 +24,14 @@ RUN apt-get install -y ruby-full=1:2.3.0+1
 RUN mkdir -p /usr/share/ruby
 COPY Gemfile /project/installations/
 COPY Gemfile.lock /project/installations/
-RUN gem install bundler
+RUN gem update --system
+RUN gem install bundler -v 2.0.0
 RUN bundle install
 RUN gem clean
 
 # Install yq & Python
 RUN apt-get install -y python python-pip groff
-# RUN pip install --upgrade pip
+RUN pip install --upgrade pip
 RUN pip install yq
 
 # Install Azure
